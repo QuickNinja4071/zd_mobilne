@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         findViewById<Button>(R.id.przycisk1).setOnClickListener {
             findViewById<Button>(R.id.przycisk1).text = "okej"
+            //
         }
     }
 }
